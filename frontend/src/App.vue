@@ -14,7 +14,7 @@
     </v-app-bar>
 
     <v-main>
-      <RouterView />
+      <RouterView :key="viewKey" />
     </v-main>
 
     <v-dialog
